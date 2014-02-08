@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8DF06B018A6BCD600789D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DF06AF18A6BCD600789D47 /* Foundation.framework */; };
+		E8DF06B218A6BCD600789D47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DF06B118A6BCD600789D47 /* CoreGraphics.framework */; };
+		E8DF06B418A6BCD600789D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DF06B318A6BCD600789D47 /* UIKit.framework */; };
+		E8DF06BA18A6BCD600789D47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8DF06B818A6BCD600789D47 /* InfoPlist.strings */; };
+		E8DF06BC18A6BCD600789D47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF06BB18A6BCD600789D47 /* main.m */; };
+		E8DF06C018A6BCD600789D47 /* LEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF06BF18A6BCD600789D47 /* LEAppDelegate.m */; };
+		E8DF06C318A6BCD600789D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DF06C118A6BCD600789D47 /* Main.storyboard */; };
+		E8DF06C618A6BCD600789D47 /* LEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF06C518A6BCD600789D47 /* LEViewController.m */; };
+		E8DF06C818A6BCD600789D47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DF06C718A6BCD600789D47 /* Images.xcassets */; };
+		E8DF06CF18A6BCD600789D47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DF06CE18A6BCD600789D47 /* XCTest.framework */; };
+		E8DF06D018A6BCD600789D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DF06AF18A6BCD600789D47 /* Foundation.framework */; };
+		E8DF06D118A6BCD600789D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DF06B318A6BCD600789D47 /* UIKit.framework */; };
+		E8DF06D918A6BCD600789D47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8DF06D718A6BCD600789D47 /* InfoPlist.strings */; };
+		E8DF06DB18A6BCD600789D47 /* LEGifExporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF06DA18A6BCD600789D47 /* LEGifExporterTests.m */; };
+		E8DF06E618A6BCEE00789D47 /* LEGIFExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF06E518A6BCEE00789D47 /* LEGIFExporter.m */; };
+		E8DF073D18A6C49100789D47 /* LEMovieFrameExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF073C18A6C49100789D47 /* LEMovieFrameExporter.m */; };
+		E8DF074018A6CACF00789D47 /* libGIFLIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DF073318A6BF3D00789D47 /* libGIFLIB.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8DF06D218A6BCD600789D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8DF06A418A6BCD600789D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8DF06AB18A6BCD600789D47;
+			remoteInfo = LEGifExporter;
+		};
+		E8DF073218A6BF3D00789D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8DF072D18A6BF3D00789D47 /* GIFLIB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E8DF06F018A6BE4000789D47;
+			remoteInfo = GIFLIB;
+		};
+		E8DF073418A6BF3D00789D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8DF072D18A6BF3D00789D47 /* GIFLIB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E8DF070018A6BE4000789D47;
+			remoteInfo = GIFLIBTests;
+		};
+		E8DF073618A6BF4500789D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8DF072D18A6BF3D00789D47 /* GIFLIB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E8DF06EF18A6BE4000789D47;
+			remoteInfo = GIFLIB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8DF06AC18A6BCD600789D47 /* LEGifExporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEGifExporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DF06AF18A6BCD600789D47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E8DF06B118A6BCD600789D47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8DF06B318A6BCD600789D47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E8DF06B718A6BCD600789D47 /* LEGifExporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEGifExporter-Info.plist"; sourceTree = "<group>"; };
+		E8DF06B918A6BCD600789D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8DF06BB18A6BCD600789D47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8DF06BD18A6BCD600789D47 /* LEGifExporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LEGifExporter-Prefix.pch"; sourceTree = "<group>"; };
+		E8DF06BE18A6BCD600789D47 /* LEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEAppDelegate.h; sourceTree = "<group>"; };
+		E8DF06BF18A6BCD600789D47 /* LEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEAppDelegate.m; sourceTree = "<group>"; };
+		E8DF06C218A6BCD600789D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8DF06C418A6BCD600789D47 /* LEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEViewController.h; sourceTree = "<group>"; };
+		E8DF06C518A6BCD600789D47 /* LEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEViewController.m; sourceTree = "<group>"; };
+		E8DF06C718A6BCD600789D47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8DF06CD18A6BCD600789D47 /* LEGifExporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEGifExporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DF06CE18A6BCD600789D47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E8DF06D618A6BCD600789D47 /* LEGifExporterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEGifExporterTests-Info.plist"; sourceTree = "<group>"; };
+		E8DF06D818A6BCD600789D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8DF06DA18A6BCD600789D47 /* LEGifExporterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEGifExporterTests.m; sourceTree = "<group>"; };
+		E8DF06E418A6BCEE00789D47 /* LEGIFExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGIFExporter.h; sourceTree = "<group>"; };
+		E8DF06E518A6BCEE00789D47 /* LEGIFExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGIFExporter.m; sourceTree = "<group>"; };
+		E8DF072D18A6BF3D00789D47 /* GIFLIB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GIFLIB.xcodeproj; path = LEGifExporter/GIFLIB/GIFLIB.xcodeproj; sourceTree = "<group>"; };
+		E8DF073B18A6C49100789D47 /* LEMovieFrameExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEMovieFrameExporter.h; sourceTree = "<group>"; };
+		E8DF073C18A6C49100789D47 /* LEMovieFrameExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEMovieFrameExporter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8DF06A918A6BCD600789D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DF074018A6CACF00789D47 /* libGIFLIB.a in Frameworks */,
+				E8DF06B218A6BCD600789D47 /* CoreGraphics.framework in Frameworks */,
+				E8DF06B418A6BCD600789D47 /* UIKit.framework in Frameworks */,
+				E8DF06B018A6BCD600789D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DF06CA18A6BCD600789D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DF06CF18A6BCD600789D47 /* XCTest.framework in Frameworks */,
+				E8DF06D118A6BCD600789D47 /* UIKit.framework in Frameworks */,
+				E8DF06D018A6BCD600789D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8DF06A318A6BCD600789D47 = {
+			isa = PBXGroup;
+			children = (
+				E8DF072D18A6BF3D00789D47 /* GIFLIB.xcodeproj */,
+				E8DF06B518A6BCD600789D47 /* LEGifExporter */,
+				E8DF06D418A6BCD600789D47 /* LEGifExporterTests */,
+				E8DF06AE18A6BCD600789D47 /* Frameworks */,
+				E8DF06AD18A6BCD600789D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8DF06AD18A6BCD600789D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF06AC18A6BCD600789D47 /* LEGifExporter.app */,
+				E8DF06CD18A6BCD600789D47 /* LEGifExporterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8DF06AE18A6BCD600789D47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF06AF18A6BCD600789D47 /* Foundation.framework */,
+				E8DF06B118A6BCD600789D47 /* CoreGraphics.framework */,
+				E8DF06B318A6BCD600789D47 /* UIKit.framework */,
+				E8DF06CE18A6BCD600789D47 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8DF06B518A6BCD600789D47 /* LEGifExporter */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF06BE18A6BCD600789D47 /* LEAppDelegate.h */,
+				E8DF06BF18A6BCD600789D47 /* LEAppDelegate.m */,
+				E8DF06C118A6BCD600789D47 /* Main.storyboard */,
+				E8DF06C418A6BCD600789D47 /* LEViewController.h */,
+				E8DF06C518A6BCD600789D47 /* LEViewController.m */,
+				E8DF06C718A6BCD600789D47 /* Images.xcassets */,
+				E8DF06B618A6BCD600789D47 /* Supporting Files */,
+				E8DF06E418A6BCEE00789D47 /* LEGIFExporter.h */,
+				E8DF06E518A6BCEE00789D47 /* LEGIFExporter.m */,
+				E8DF073B18A6C49100789D47 /* LEMovieFrameExporter.h */,
+				E8DF073C18A6C49100789D47 /* LEMovieFrameExporter.m */,
+			);
+			path = LEGifExporter;
+			sourceTree = "<group>";
+		};
+		E8DF06B618A6BCD600789D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF06B718A6BCD600789D47 /* LEGifExporter-Info.plist */,
+				E8DF06B818A6BCD600789D47 /* InfoPlist.strings */,
+				E8DF06BB18A6BCD600789D47 /* main.m */,
+				E8DF06BD18A6BCD600789D47 /* LEGifExporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8DF06D418A6BCD600789D47 /* LEGifExporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF06DA18A6BCD600789D47 /* LEGifExporterTests.m */,
+				E8DF06D518A6BCD600789D47 /* Supporting Files */,
+			);
+			path = LEGifExporterTests;
+			sourceTree = "<group>";
+		};
+		E8DF06D518A6BCD600789D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF06D618A6BCD600789D47 /* LEGifExporterTests-Info.plist */,
+				E8DF06D718A6BCD600789D47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8DF072E18A6BF3D00789D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF073318A6BF3D00789D47 /* libGIFLIB.a */,
+				E8DF073518A6BF3D00789D47 /* GIFLIBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8DF06AB18A6BCD600789D47 /* LEGifExporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DF06DE18A6BCD600789D47 /* Build configuration list for PBXNativeTarget "LEGifExporter" */;
+			buildPhases = (
+				E8DF06A818A6BCD600789D47 /* Sources */,
+				E8DF06A918A6BCD600789D47 /* Frameworks */,
+				E8DF06AA18A6BCD600789D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8DF073718A6BF4500789D47 /* PBXTargetDependency */,
+			);
+			name = LEGifExporter;
+			productName = LEGifExporter;
+			productReference = E8DF06AC18A6BCD600789D47 /* LEGifExporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8DF06CC18A6BCD600789D47 /* LEGifExporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DF06E118A6BCD600789D47 /* Build configuration list for PBXNativeTarget "LEGifExporterTests" */;
+			buildPhases = (
+				E8DF06C918A6BCD600789D47 /* Sources */,
+				E8DF06CA18A6BCD600789D47 /* Frameworks */,
+				E8DF06CB18A6BCD600789D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8DF06D318A6BCD600789D47 /* PBXTargetDependency */,
+			);
+			name = LEGifExporterTests;
+			productName = LEGifExporterTests;
+			productReference = E8DF06CD18A6BCD600789D47 /* LEGifExporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8DF06A418A6BCD600789D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jp;
+				TargetAttributes = {
+					E8DF06CC18A6BCD600789D47 = {
+						TestTargetID = E8DF06AB18A6BCD600789D47;
+					};
+				};
+			};
+			buildConfigurationList = E8DF06A718A6BCD600789D47 /* Build configuration list for PBXProject "LEGifExporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8DF06A318A6BCD600789D47;
+			productRefGroup = E8DF06AD18A6BCD600789D47 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E8DF072E18A6BF3D00789D47 /* Products */;
+					ProjectRef = E8DF072D18A6BF3D00789D47 /* GIFLIB.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E8DF06AB18A6BCD600789D47 /* LEGifExporter */,
+				E8DF06CC18A6BCD600789D47 /* LEGifExporterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E8DF073318A6BF3D00789D47 /* libGIFLIB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGIFLIB.a;
+			remoteRef = E8DF073218A6BF3D00789D47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E8DF073518A6BF3D00789D47 /* GIFLIBTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GIFLIBTests.xctest;
+			remoteRef = E8DF073418A6BF3D00789D47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8DF06AA18A6BCD600789D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DF06C818A6BCD600789D47 /* Images.xcassets in Resources */,
+				E8DF06BA18A6BCD600789D47 /* InfoPlist.strings in Resources */,
+				E8DF06C318A6BCD600789D47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DF06CB18A6BCD600789D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DF06D918A6BCD600789D47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8DF06A818A6BCD600789D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DF06BC18A6BCD600789D47 /* main.m in Sources */,
+				E8DF073D18A6C49100789D47 /* LEMovieFrameExporter.m in Sources */,
+				E8DF06C018A6BCD600789D47 /* LEAppDelegate.m in Sources */,
+				E8DF06E618A6BCEE00789D47 /* LEGIFExporter.m in Sources */,
+				E8DF06C618A6BCD600789D47 /* LEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DF06C918A6BCD600789D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DF06DB18A6BCD600789D47 /* LEGifExporterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8DF06D318A6BCD600789D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8DF06AB18A6BCD600789D47 /* LEGifExporter */;
+			targetProxy = E8DF06D218A6BCD600789D47 /* PBXContainerItemProxy */;
+		};
+		E8DF073718A6BF4500789D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GIFLIB;
+			targetProxy = E8DF073618A6BF4500789D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8DF06B818A6BCD600789D47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DF06B918A6BCD600789D47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E8DF06C118A6BCD600789D47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DF06C218A6BCD600789D47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8DF06D718A6BCD600789D47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DF06D818A6BCD600789D47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8DF06DC18A6BCD600789D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8DF06DD18A6BCD600789D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8DF06DF18A6BCD600789D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEGifExporter/LEGifExporter-Prefix.pch";
+				INFOPLIST_FILE = "LEGifExporter/LEGifExporter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E8DF06E018A6BCD600789D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEGifExporter/LEGifExporter-Prefix.pch";
+				INFOPLIST_FILE = "LEGifExporter/LEGifExporter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E8DF06E218A6BCD600789D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEGifExporter.app/LEGifExporter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEGifExporter/LEGifExporter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LEGifExporterTests/LEGifExporterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E8DF06E318A6BCD600789D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEGifExporter.app/LEGifExporter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEGifExporter/LEGifExporter-Prefix.pch";
+				INFOPLIST_FILE = "LEGifExporterTests/LEGifExporterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8DF06A718A6BCD600789D47 /* Build configuration list for PBXProject "LEGifExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DF06DC18A6BCD600789D47 /* Debug */,
+				E8DF06DD18A6BCD600789D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DF06DE18A6BCD600789D47 /* Build configuration list for PBXNativeTarget "LEGifExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DF06DF18A6BCD600789D47 /* Debug */,
+				E8DF06E018A6BCD600789D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DF06E118A6BCD600789D47 /* Build configuration list for PBXNativeTarget "LEGifExporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DF06E218A6BCD600789D47 /* Debug */,
+				E8DF06E318A6BCD600789D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8DF06A418A6BCD600789D47 /* Project object */;
+}
